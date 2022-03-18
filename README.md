@@ -1,5 +1,5 @@
-# Project 2 - Ames Housing Data and Kaggle Challenge
-
+# Ames Housing Data and Kaggle Challenge
+### A method for predicting the sale price of houses
 
 
 ## Problem Statement
