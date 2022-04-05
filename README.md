@@ -3,17 +3,17 @@
 
 
 ## Problem Statement
-What is the sale value of a house? In capitalist societies there is no exogenous price setter, but rather the price of a house is simply whatever someone is willing to pair for it. This poses a significant challenge for both buyers and sellers in the housing market. House appraisal is a valuable service, and accurate assessment of a house's value provides leverage in negotations, and a competitve advantage for investors. However, accurately evaluating a house's value is difficult undertaking, and so real estate appraisal has historically been an expert domain.
+What is the sale value of a house? In capitalist societies there is no exogenous price setter, but rather the price of a house is simply whatever someone is willing to pair for it. This poses a significant challenge for both buyers and sellers in the housing market. Home appraisal is a valuable service, and accurate assessment of a house's value provides leverage in negotations, and a competitve advantage for investors. However, accurately evaluating a house's value is a difficult undertaking and so real estate appraisal has historically been an expert domain.
 
 In the last several decades, the rapid expansion of digitization and the consequent arrival of 'Big Data' have open new possibilities for housing appraisal. Machine learning can be a powerful tool in this, but there remains difficultly in calibrating high-accuracy predictive models.
 
-This paper attempts to design an accurate model predicting house price using linear regression, and as a point of reference a K Nearest Neighbour model is also implemented. It is hoped that in designing these models I can gain insight into the optimal model design for predicting the final sale price of houses.
+This paper attempts to design an accurate model for predicting house price using linear regression. As a point of reference, a K Nearest Neighbour model is also implemented. It is hoped that in designing these models I can gain insight into the optimal model design for predicting the final sale price of houses.
 
 
 ## Data
 This report uses the Ames housing dataset. The full dictionary is available here: http://jse.amstat.org/v19n3/decock/DataDocumentation.txt
 
-The variable names are preserved throughout this report, although they are reformatted to remove uppercase, and spaces are replaced with underscores for consistency and ease of use. In addition, there is some feature engineering, for example, each house's construction year and sale year are used to compute the home's age at time of sale, and this is used as a continuous variable for training the models. There are also interaction terms added at several points in this report, but in all cases the features are named in a consistent manner, allowing the reader to refer back to the above data dictionary for clarification.
+The variable names are preserved throughout this report, although they are reformatted to remove uppercase, and spaces are replaced with underscores for consistency and ease of use. There is some feature engineering, so for example, each house's construction year and sale year are used to compute the home's age at time of sale, and this is used as a continuous variable for training the models. There are also interaction terms added at several points in this report, but in all cases the features are named in a consistent manner, allowing the reader to refer back to the above data dictionary for clarification.
 
 
 ## Results
